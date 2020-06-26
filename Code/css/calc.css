@@ -1,0 +1,71 @@
+#container{
+    background-color: white;
+    height: 450 px;
+    width: 300 px;
+    border-radius: 8px;
+    position: relative;
+    top: 100px;
+    left: 40%;
+}
+
+.screen{
+    background-colo: white;
+    height: 60 px;
+    width: 270 px;
+    position: relative;
+    top: 20px;
+    left: 15 px;
+}
+
+.screen input{
+    position: relative;
+    top: 3px;
+    left: 2 px;
+    color: black;
+    background-color: #e5dfa0;
+    height: 56 px;
+    width: 266 px;
+    font-size: 25 px;
+    text-align: right;
+}
+
+.btns{
+    position: relative;
+    top: 20px;
+    left: 15 px;
+}
+
+.button{
+    width: 40px;
+    height: 30 px;
+    border: none;
+    border-radius: 7 px;
+    margin-left: 10 px;
+    cursor: pointer;
+}
+
+.button.black{
+
+    color: white;
+    background-color: black;
+    border-bottom: 2px solid #647489;
+    border-top: 2px black;
+}
+
+.button.silver{
+
+    color: white;
+    background-color: #647489;
+    border-bottom: 2px solid black;
+}
+
+.button.red{
+
+    color: white;
+    background-color: red;
+    border-bottom: 2px solid #647489;
+}
+
+p{
+    line-height: 20 px;
+}
